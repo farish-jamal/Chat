@@ -2,6 +2,7 @@ import { firebase } from "@firebase/app";
 import "@firebase/firestore";
 import "@firebase/auth";
 
+// App initilization
 const firebaseApp = firebase.initializeApp({
   apiKey: "AIzaSyBlEHRnkKo3aA2TTeH06CLqct8yXFYcVuA",
   authDomain: "ringer-chat-app-dbd9b.firebaseapp.com",
